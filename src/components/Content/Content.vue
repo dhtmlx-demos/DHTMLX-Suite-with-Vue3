@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="wrapper-content">
         <LeftContent />
         <RightContent />
     </div>
@@ -18,7 +18,7 @@ export default {
 </script>
   
 <style scoped>
-.wrapper {
+.wrapper-content {
     display: flex;
     flex-grow: 1;
     overflow: auto;
